@@ -6,6 +6,7 @@ read -p "Enter operator (+, -, *, /): " op
 read -p "Enter second number: " b
 
 
+
 case $op in
   +) result=$((a + b)) ;;
   -) result=$((a - b)) ;;
